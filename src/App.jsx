@@ -35,7 +35,7 @@ const swap = ()=>{
   return (   
     <>
      <div className=' flex  justify-center w-screen h-screen items-center bg-no-repeat bg-cover bg-center  bg-gray-600' style={{ backgroundImage: "url('https://img.freepik.com/free-vector/foreign-exchange-background_24908-54953.jpg') "}}>
-     <div  className= ' border-4 border-gray-600   p-4 w-[50%]  h-fit flex flex-col justify-center items-center' style={{backdropFilter: 'blur(5px)'}} >
+     <div  className= ' border-4 border-gray-600   p-4 w-[50%]  h-fit flex flex-col justify-center items-center' style={{backdropFilter: 'blur(150px)'}} >
      <h1 className='text-2xl font-bold mb-4'>Currency Converter</h1>
       <InputBox  label='From' amount={amount} setAmount={setAmount} options={currencies} setCurrency={setFrom} currency={from}
         />
